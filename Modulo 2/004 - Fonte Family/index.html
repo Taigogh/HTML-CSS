@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body{
+            font-family: 'Work Sans', 'Courier New', Courier, monospace;
+            /*
+            Medidas Absolutas:
+            cm(centimetro), mm(milimetro), in(polegada), px(pixel), pt(ponto), pc (paica)
+            
+            Medidas Relativas
+            em(tamanho atual da fonte), ex(altura X), rem(Fonte configurada no body), vw(tamanho da tela %), vh(altura da tela)
+            16px = 1em
+            */
+
+            font-size: 1cm;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+
+            /*weight(peso), width(largura), height(altura)*/
+        }
+
+        h1{
+            /*Shorthand font
+             - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            font:  italic bolder 3em 'Work Sans', sans-serif
+            
+        }
+    </style>
+</head>
+<body >
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis adipisci temporibus culpa aspernatur, accusantium a laborum, facilis enim iure praesentium nesciunt dolore debitis iusto atque minima architecto totam. Quaerat, molestiae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellendus doloribus perferendis harum eius corrupti animi aperiam odit excepturi ipsum! Id consectetur excepturi illo doloremque voluptatum perspiciatis fuga omnis dolorum.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, possimus eius explicabo corporis ipsa ad voluptatibus quis numquam, suscipit quam illo consequuntur cum unde libero facilis! Sed mollitia recusandae expedita.</p>
+</body>
+</html>

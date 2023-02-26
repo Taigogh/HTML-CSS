@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Abra o site em vários dispositivos diferentes.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/Foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/Foto-M.png" type="image/png">
+        <img src="Imagens/Foto-G.png" alt="Imagem fléxivel">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Last at night.mp3" type="audio/mpeg">
+        <source src="midia/Last at night.ogg" type="audio/ogg">
+        <source src="midia/Last at night.wav" type="audio/wav">
+    </audio>
+    <p>Infelizmente seu navegador não suporta, <a href="midia/Last at night.mp3">clique aqui</a> para realizar o download</p>
+        
+    
+</body>
+</html>
