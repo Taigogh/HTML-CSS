@@ -28,21 +28,23 @@
             font-size: 1.5em;
             
         }
+        
+        tbody > tr:nth-last-child(odd){
+            background-color: lightgrey;
 
-        th.H{
-            background-color: rgba(0, 0, 255, 0.568);
         }
 
-        th.M{
-            background-color: rgba(255, 0, 0, 0.384);
+
+        th#H{
+          background-color: lightslategray;
         }
         
-        th.F{
-            background-color: rgba(255, 255, 0, 0.555);
+        thead > tr{
+            background-color:  lightslategray;
         }
 
-        td.v{
-            background-color: rgba(255, 255, 0, 0.349);
+        tbody > tr > th{
+            background-color:  lightslategray;
         }
     </style>
 </head>
@@ -59,42 +61,42 @@
             </thead>
             <tbody>
                 <tr>
-                    <th class="M" rowspan="3">Mulheres</th>
+                    <th rowspan="3">Mulheres</th>
                     <td>Ana Maria</td>
-                    <td class="v">Alien</td>
+                    <td>Alien</td>
                     <td>Rambo</td>
-                    <td class="v">Vingadores</td>
+                    <td>Vingadores</td>
                 </tr>
                 <tr>
                     <td>Beatriz Souza</td>
-                    <td class="v">Hulk</td>
+                    <td>Hulk</td>
                     <td>Inception</td>
-                    <td class="v">Batman</td>
+                    <td>Batman</td>
                 </tr>
                 <tr>
                     <td>Cláudia Melo</td>
-                    <td class="v">Oblvivion</td>
+                    <td>Oblvivion</td>
                     <td>Matrix</td>
-                    <td class="v">Big Hero</td>
+                    <td>Big Hero</td>
                 </tr>
                 <tr>
-                    <th class="H" rowspan="3">Homens</th>
+                    <th id="H" rowspan="3">Homens</th>
                     <td>Bruno Mendonça</td>
-                    <td class="v">Intocaveis</td>
+                    <td>Intocaveis</td>
                     <td>Amnésia</td>
-                    <td class="v">Gladiador</td>
+                    <td>Gladiador</td>
                 </tr>
                 <tr>
                     <td>Daniel Lourenço</td>
-                    <td class="v">Wall</td>
+                    <td>Wall</td>
                     <td>Oldboy</td>
-                    <td class="v">Dangal</td>
+                    <td>Dangal</td>
                 </tr>
                 <tr>
                     <td>Fabiano Mota</td>
-                    <td class="v">Star Wars</td>
+                    <td>Star Wars</td>
                     <td>Taxi Driver</td>
-                    <td class="v">Toy Story</td>
+                    <td>Toy Story</td>
                 </tr>
             </tbody>
     </table>
