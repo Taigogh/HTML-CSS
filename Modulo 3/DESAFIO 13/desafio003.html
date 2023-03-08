@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de tabela 003</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+
+
+        }
+        tr, td, th{
+
+
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption{
+            font-weight: bolder;
+            padding: 10px;
+            font-size: 1.5em;
+            
+        }
+
+        th.H{
+            background-color: rgba(0, 0, 255, 0.568);
+        }
+
+        th.M{
+            background-color: rgba(255, 0, 0, 0.384);
+        }
+        
+        th.F{
+            background-color: rgba(255, 255, 0, 0.555);
+        }
+
+        td.v{
+            background-color: rgba(255, 255, 0, 0.349);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <caption>Filmes Favoritos</caption>
+            <thead>
+                <tr>
+                    <th class="genero">Grupos</th>
+                    <th>Nomes</th>
+                    <th class="F" colspan="3">Filmes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="M" rowspan="3">Mulheres</th>
+                    <td>Ana Maria</td>
+                    <td class="v">Alien</td>
+                    <td>Rambo</td>
+                    <td class="v">Vingadores</td>
+                </tr>
+                <tr>
+                    <td>Beatriz Souza</td>
+                    <td class="v">Hulk</td>
+                    <td>Inception</td>
+                    <td class="v">Batman</td>
+                </tr>
+                <tr>
+                    <td>Cláudia Melo</td>
+                    <td class="v">Oblvivion</td>
+                    <td>Matrix</td>
+                    <td class="v">Big Hero</td>
+                </tr>
+                <tr>
+                    <th class="H" rowspan="3">Homens</th>
+                    <td>Bruno Mendonça</td>
+                    <td class="v">Intocaveis</td>
+                    <td>Amnésia</td>
+                    <td class="v">Gladiador</td>
+                </tr>
+                <tr>
+                    <td>Daniel Lourenço</td>
+                    <td class="v">Wall</td>
+                    <td>Oldboy</td>
+                    <td class="v">Dangal</td>
+                </tr>
+                <tr>
+                    <td>Fabiano Mota</td>
+                    <td class="v">Star Wars</td>
+                    <td>Taxi Driver</td>
+                    <td class="v">Toy Story</td>
+                </tr>
+            </tbody>
+    </table>
+</body>
+</html>
